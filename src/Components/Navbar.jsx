@@ -5,14 +5,14 @@ import "../App.css";
 export const Navbar = () => {
   return (
     <>
-      <div className="navbar">
-        <Link className="nav-list" to="/Dashboard">
+      <div className="navbar bg-dark">
+        <Link className="nav-list bg-danger" to="/Dashboard">
           Dashboard
         </Link>
-        <Link className="nav-list" to="/register">
+        <Link className="nav-list  bg-danger" to="/register">
           Register
         </Link>
-        <Link className="nav-list" to="/login">
+        <Link className="nav-list  bg-danger" to="/login">
           Login
         </Link>
       </div>

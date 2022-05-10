@@ -22,7 +22,7 @@ const Login = () => {
   return isAuth2 ? (
     <Navigate to="/Dashboard" />
   ) : (
-    <div className="card shadow-sm border-0 px-3 rounded-2 mb-3 py-4 mx-auto mt-5 bg-light">
+    <div className="card shadow-sm border-0 px-3 rounded-2 mb-3 py-4 mx-auto mt-5 bg-dark">
       <div className="card-header bg-transparent border-0 text-center text-uppercase">
         <h3>User Login</h3>
       </div>
@@ -61,7 +61,7 @@ const Login = () => {
           <p className="text-center mb-0 mt-3">
             <input
               type="submit"
-              className="btn btn-primary btn-lg w-100 text-uppercase"
+              className="btn btn-danger btn-lg w-100 text-uppercase"
               value="Login"
             />
           </p>

@@ -16,7 +16,7 @@ const Dashboard = () => {
 
   // if (isAuth === "true" && isAuth2 === "true") {
   return isAuth2 ? (
-    <div className="Dashboard">
+    <div className="Dashboard bg-dark">
       <div>
         <h1> Dashboard </h1>
         <input
@@ -24,7 +24,7 @@ const Dashboard = () => {
           placeholder="Github User Name"
           onChange={(e) => setQuery(e.target.value)}
         />
-        <button onClick={handleSearch}>Search</button>
+        <button onClick={handleSearch} className="bg-danger" id="mybtn1">Search</button>
       </div>
       <div>
         {users.map((item) => (
